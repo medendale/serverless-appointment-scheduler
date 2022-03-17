@@ -1,0 +1,41 @@
+<DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>xyz appointments</title>
+        <script src="/__/firebase/6.4.2/firebase-app.js"></script>
+        <script src="/__/firebase/6.4.2/firebase-auth.js"></script>
+        <script src="/__/firebase/6.4.2/firebase-firestore.js"></script>
+        <script src="/__/firebase/init.js"></script>
+        <link type="text/css" rel="stylesheet" href="styles.css" />
+        <!-- Page Wrapper -->
+<div style="background: url(https://bootstrapious.com/i/snippets/sn-bg-image/bg.jpg)" class="page-holder bg-cover">
+
+  <div class="container py-5">
+    <header class="text-center text-white py-5">
+      XYZ Corporation Appointments
+    </header>
+    <div class="text-white">
+      <p class="lead">Please Choose the Date and time  </p>
+    </div>
+
+  </div>
+</div>
+      </head>
+      <body>
+        <div id="message">
+          <h2>Scheduled appointments</h2>
+          <div id="appointments"></div>
+          <hr/>
+          <h2>Schedule a new appointment</h2>
+          <select id="timeslots">
+            <option value="0">Choose time</option>
+          </select>
+          <br><br>
+          <button id="makeAppointment">Schedule</button>
+        </div>
+        <script src="appointments.js"></script>
+      </body>
+    </html>
+    
